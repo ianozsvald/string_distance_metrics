@@ -1,0 +1,9 @@
+A set of simple string distance metrics including:
+
+* Levenshtein edit distance (using http://pypi.python.org/pypi/python-Levenshtein/) (0+)
+* Jaro Winkler, Jaro, Ratio distances (0+)
+* Title string lengths (0+)
+* Uni/bi/trigram distances (0.0-1.0)
+* Cosine distance (0.0-1.0)
+
+See test_string_distance_measures.py for usage examples. Each method takes two strings and returns a distance >= 0, some are bounded by 1.0, others aren't. 
